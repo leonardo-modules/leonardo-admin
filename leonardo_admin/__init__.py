@@ -10,6 +10,9 @@ class Default(object):
 
     optgroup = 'Admin'
 
+    # don't decorate admin urls
+    public = True
+
     @property
     def apps(self):
         apps = [
