@@ -16,13 +16,8 @@ class Default(object):
     @property
     def apps(self):
         apps = [
-
-            'bootstrap_admin',  # theme
-            'bootstrap_admin_feincms',  # theme
-
             'django.contrib.admin',
             'django.contrib.admindocs',
-
             'leonardo_admin',
         ]
         return apps
