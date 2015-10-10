@@ -42,6 +42,15 @@ Add ``leonardo_admin`` to APPS list, in the ``local_settings.py``::
         ...
     ]
 
+Configuration
+-------------
+
+One improtant option is there::
+
+    ADMIN_URL = "admin/"
+
+Works well with leonardo-admin-honeypot.
+
 Read More
 ---------
 
