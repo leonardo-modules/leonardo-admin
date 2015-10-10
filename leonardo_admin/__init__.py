@@ -26,6 +26,10 @@ class Default(object):
         ('leonardo_admin.apps.admin', _('Admin Site')),
     ]
 
+    config = {
+        "ADMIN_URL": ("admin/", "Path to Django admin"),
+    }
+
 
 class Config(AppConfig, Default):
     name = 'leonardo_admin'
